@@ -1,3 +1,8 @@
+variable "subscription_id" { default = "x" }
+variable "client_id" { default = "x" }
+variable "client_secret" { default = "x" }
+variable "tenant_id" { default = "x" }
+
 variable "count" { default = "5" }
 
 variable "location" { default = "West Europe" }
